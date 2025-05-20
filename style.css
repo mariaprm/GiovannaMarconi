@@ -1,0 +1,40 @@
+/*
+  Use the following to include this CSS file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+
+:root {
+  --preto: #121212;
+  --cinza-escuro: #1e1e1e;
+  --cinza-medio: #2c2c2c;
+  --cinza-claro: #d3d3d3;
+  --cinza-destaque: #f8f8f2;
+  --texto-principal: #e0e0e0;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--preto);
+  color: var(--texto-principal);
+}
+
+p {
+  color: var(--cinza-claro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h5 {
+  color: var(--cinza-destaque);
+  font-weight: 700;
+}
+
+a {
+  color: var(--cinza-claro);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cinza-destaque);
+  text-decoration: underline;
+}
